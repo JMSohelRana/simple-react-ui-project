@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -14,15 +15,16 @@ const Footer = () => {
             href="https://www.youtube.com/channel/UCUwcuNjXzUMyxMYkjci0TIg"
             target="blank"
           >
-            Youtube
+            <AiFillYoutube></AiFillYoutube>Youtube
           </a>
           <a
             href="https://www.linkedin.com/in/jm-sohel-rana-4138bb229/"
             target="blank"
           >
-            LinkeDin
+            <AiFillLinkedin></AiFillLinkedin>LinkeDin
           </a>
           <a href="https://github.com/JMSohelRana" target="blank">
+            <AiFillGithub></AiFillGithub>
             GitHub
           </a>
         </div>
