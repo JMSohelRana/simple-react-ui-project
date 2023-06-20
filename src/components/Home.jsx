@@ -1,5 +1,11 @@
 import React from "react";
 import vg from "../assets/2.webp";
+import {
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillInstagram,
+  AiFillYoutube,
+} from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -30,13 +36,46 @@ const Home = () => {
             placeat illum quod recusandae odio ipsum adipisci unde, minus
             dignissimos magni laudantium, optio, impedit rerum fugit vel
             asperiores excepturi. Maiores excepturi omnis sit, aut quae maxime
-            voluptatem vero minus ex mollitia quod corrupti quis necessitatibus
-            quisquam nisi dicta sint possimus dolor. Velit sit tempora saepe
-            illum accusamus mollitia consectetur similique debitis illo beatae
-            et suscipit quod quia earum, dolorem minima asperiores excepturi?
-            Labore eum tempora sint, odio deleniti atque optio earum distinctio,
-            ipsam animi molestias blanditiis assumenda at suscipit minima rerum?
           </p>
+        </div>
+      </div>
+      <div className="home4">
+        <div>
+          <h1>Brands</h1>
+          <article>
+            <div
+              style={{
+                animationDelay: "0.3s",
+              }}
+            >
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.5s",
+              }}
+            >
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "0.7s",
+              }}
+            >
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+            <div
+              style={{
+                animationDelay: "1s",
+              }}
+            >
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </article>
         </div>
       </div>
     </>
