@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className="home" id="home">
         <main>
-          <h1>StarNet</h1>
+          <h1>SwarnaFix</h1>
           <p>Solution of all your problems</p>
         </main>
       </div>
